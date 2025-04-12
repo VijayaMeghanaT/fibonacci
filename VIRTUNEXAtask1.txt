@@ -1,0 +1,74 @@
+
+🔢 Fibonacci Generator
+Asks how many terms you want.
+
+Shows the series like: 0 1 1 2 3 5 8....
+
+💸 Expense Tracker
+You can:
+
+Add an expense (with date, amount, and category like "Food", "Transport").
+
+View all expenses.
+
+Edit or delete any entry.
+
+📊 Reports
+Shows how much you spent in total.
+
+Shows by category or date.
+
+You can also export it to Excel (optional).
+
+
+
+
+💾 How To Run the Project
+
+
+📦 Requirements:
+Java installed
+
+SQLite JDBC driver
+
+Apache POI (optional)
+
+🚀 Steps:
+Open your terminal or command prompt.
+
+Go to the folder where the project is.
+
+Compile:
+
+cd ExpenseTracker_Project1
+mvn clean install
+mvn exec:java
+
+
+
+
+
+🔮 Possible Improvements (Future Work)
+GUI using JavaFX or Swing
+
+Export/Import functionality (JSON, XML)
+
+Report generation with Apache POI (Excel exports)
+
+Monthly/category-based summaries
+
+Password-protected access (for security)
+
+
+
+📦 What’s Included in the Project
+All Java source files
+
+Database file (expenses.db)
+
+Excel report file (optional)
+
+JAR file to run the app
+
+This documentation
+
